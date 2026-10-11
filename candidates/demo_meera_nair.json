@@ -1,0 +1,569 @@
+{
+  "demo": true,
+  "name": "Meera Nair",
+  "headline": "Frontend developer",
+  "location": "Kochi",
+  "contact": "meera.demo@example.com",
+  "interests": [
+    "design",
+    "travel"
+  ],
+  "claimed_skills": [],
+  "created": "2026-08-01T09:00:00",
+  "updated": "2026-09-11T18:00:00",
+  "skill_graph": {
+    "nodes": [
+      {
+        "id": "semantic-html",
+        "name": "Semantic HTML",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 5.7,
+        "tasks_done": 2,
+        "tasks_total": 2,
+        "failures": 1,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-15",
+        "acquired_on": "2026-08-15",
+        "parent": "HTML and CSS",
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 38,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write semantic_html.py that reads a small sample dataset and prints the result",
+            "description": "Practise semantic html: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "semantic_html.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 23,
+            "completed_on": "2026-08-13",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 81,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "1.2",
+            "title": "Build semantic_html_2.py that solves a realistic exercise step by step",
+            "description": "Practise semantic html: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "semantic_html.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 15,
+            "completed_on": "2026-08-14",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 70,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      },
+      {
+        "id": "css-flexbox-and-grid",
+        "name": "CSS flexbox and grid",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 6.3,
+        "tasks_done": 2,
+        "tasks_total": 2,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-21",
+        "acquired_on": "2026-08-21",
+        "parent": "HTML and CSS",
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 36,
+        "tasks": [
+          {
+            "id": "2.1",
+            "title": "Write css_flexbox_and_grid.py that reads a small sample dataset and prints the result",
+            "description": "Practise css flexbox and grid: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "css_flexbox_and_grid.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 19,
+            "completed_on": "2026-08-19",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 91,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "2.2",
+            "title": "Build css_flexbox_and_grid_2.py that solves a realistic exercise step by step",
+            "description": "Practise css flexbox and grid: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "css_flexbox_and_grid.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 17,
+            "completed_on": "2026-08-20",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 86,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      },
+      {
+        "id": "responsive-layouts",
+        "name": "Responsive layouts",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.9,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-24",
+        "acquired_on": "2026-08-24",
+        "parent": "HTML and CSS",
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 23,
+        "tasks": [
+          {
+            "id": "3.1",
+            "title": "Write responsive_layouts.py that reads a small sample dataset and prints the result",
+            "description": "Practise responsive layouts: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "responsive_layouts.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 23,
+            "completed_on": "2026-08-23",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 82,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      },
+      {
+        "id": "html-and-css",
+        "name": "HTML and CSS",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 5,
+        "tasks_total": 5,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-24",
+        "parent": null,
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 97,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write semantic_html.py that reads a small sample dataset and prints the result",
+            "description": "Practise semantic html: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "semantic_html.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 23,
+            "completed_on": "2026-08-13",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 81,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "1.2",
+            "title": "Build semantic_html_2.py that solves a realistic exercise step by step",
+            "description": "Practise semantic html: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "semantic_html.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 15,
+            "completed_on": "2026-08-14",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 70,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "2.1",
+            "title": "Write css_flexbox_and_grid.py that reads a small sample dataset and prints the result",
+            "description": "Practise css flexbox and grid: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "css_flexbox_and_grid.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 19,
+            "completed_on": "2026-08-19",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 91,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "2.2",
+            "title": "Build css_flexbox_and_grid_2.py that solves a realistic exercise step by step",
+            "description": "Practise css flexbox and grid: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "css_flexbox_and_grid.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 17,
+            "completed_on": "2026-08-20",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 86,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "3.1",
+            "title": "Write responsive_layouts.py that reads a small sample dataset and prints the result",
+            "description": "Practise responsive layouts: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "responsive_layouts.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 23,
+            "completed_on": "2026-08-23",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 82,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      },
+      {
+        "id": "javascript-functions-and-closures",
+        "name": "JavaScript functions and closures",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 3.3,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-29",
+        "acquired_on": "2026-08-29",
+        "parent": "JavaScript fundamentals",
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 8,
+        "tasks": [
+          {
+            "id": "4.1",
+            "title": "Write javascript_functions_and_clo.py that reads a small sample dataset and prints the result",
+            "description": "Practise javascript functions and closures: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "javascript_functions_and_clo.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 8,
+            "completed_on": "2026-08-28",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 75,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      },
+      {
+        "id": "dom-manipulation",
+        "name": "DOM manipulation",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 7.3,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-03",
+        "acquired_on": "2026-09-03",
+        "parent": "JavaScript fundamentals",
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 50,
+        "tasks": [
+          {
+            "id": "5.1",
+            "title": "Write dom_manipulation.py that reads a small sample dataset and prints the result",
+            "description": "Practise dom manipulation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "dom_manipulation.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 15,
+            "completed_on": "2026-08-31",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 78,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "5.2",
+            "title": "Build dom_manipulation_2.py that solves a realistic exercise step by step",
+            "description": "Practise dom manipulation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "dom_manipulation.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 17,
+            "completed_on": "2026-09-01",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 80,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "5.3",
+            "title": "Create dom_manipulation_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise dom manipulation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "dom_manipulation.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 18,
+            "completed_on": "2026-09-02",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 76,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      },
+      {
+        "id": "fetch-api-and-async-await",
+        "name": "Fetch API and async/await",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.5,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-06",
+        "acquired_on": "2026-09-06",
+        "parent": "JavaScript fundamentals",
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 38,
+        "tasks": [
+          {
+            "id": "6.1",
+            "title": "Write fetch_api_and_async_await.py that reads a small sample dataset and prints the result",
+            "description": "Practise fetch api and async/await: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "fetch_api_and_async_await.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 38,
+            "completed_on": "2026-09-05",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 77,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      },
+      {
+        "id": "javascript-fundamentals",
+        "name": "JavaScript fundamentals",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 5,
+        "tasks_total": 5,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-09-06",
+        "parent": null,
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 96,
+        "tasks": [
+          {
+            "id": "4.1",
+            "title": "Write javascript_functions_and_clo.py that reads a small sample dataset and prints the result",
+            "description": "Practise javascript functions and closures: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "javascript_functions_and_clo.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 8,
+            "completed_on": "2026-08-28",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 75,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "5.1",
+            "title": "Write dom_manipulation.py that reads a small sample dataset and prints the result",
+            "description": "Practise dom manipulation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "dom_manipulation.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 15,
+            "completed_on": "2026-08-31",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 78,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "5.2",
+            "title": "Build dom_manipulation_2.py that solves a realistic exercise step by step",
+            "description": "Practise dom manipulation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "dom_manipulation.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 17,
+            "completed_on": "2026-09-01",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 80,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "5.3",
+            "title": "Create dom_manipulation_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise dom manipulation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "dom_manipulation.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 18,
+            "completed_on": "2026-09-02",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 76,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          },
+          {
+            "id": "6.1",
+            "title": "Write fetch_api_and_async_await.py that reads a small sample dataset and prints the result",
+            "description": "Practise fetch api and async/await: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "fetch_api_and_async_await.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 38,
+            "completed_on": "2026-09-05",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 77,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      },
+      {
+        "id": "react-components-and-props",
+        "name": "React components and props",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.7,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-11",
+        "acquired_on": "2026-09-11",
+        "parent": "React basics",
+        "roadmaps": [
+          "Modern Frontend Development"
+        ],
+        "points": 17,
+        "tasks": [
+          {
+            "id": "7.1",
+            "title": "Write react_components_and_props.py that reads a small sample dataset and prints the result",
+            "description": "Practise react components and props: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "react_components_and_props.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 17,
+            "completed_on": "2026-09-10",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 70,
+            "source": "https://github.com/meeranair/learning-tasks",
+            "roadmap": "Modern Frontend Development"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "src": "semantic-html",
+        "dst": "html-and-css",
+        "kind": "part_of"
+      },
+      {
+        "src": "css-flexbox-and-grid",
+        "dst": "html-and-css",
+        "kind": "part_of"
+      },
+      {
+        "src": "responsive-layouts",
+        "dst": "html-and-css",
+        "kind": "part_of"
+      },
+      {
+        "src": "javascript-functions-and-closures",
+        "dst": "javascript-fundamentals",
+        "kind": "part_of"
+      },
+      {
+        "src": "dom-manipulation",
+        "dst": "javascript-fundamentals",
+        "kind": "part_of"
+      },
+      {
+        "src": "fetch-api-and-async-await",
+        "dst": "javascript-fundamentals",
+        "kind": "part_of"
+      },
+      {
+        "src": "html-and-css",
+        "dst": "javascript-fundamentals",
+        "kind": "prerequisite"
+      }
+    ]
+  },
+  "stats": {
+    "hours_logged": 33.8,
+    "tasks_done": 13,
+    "failures": 1,
+    "skips": 4,
+    "helper_tasks": 3,
+    "first_try_rate": 0.9,
+    "active_days": 19,
+    "current_streak": 5,
+    "longest_streak": 13,
+    "last_active": "2026-09-11",
+    "skills_completed": 9,
+    "skills_in_progress": 1,
+    "submissions": 11,
+    "submissions_passed": 10,
+    "avg_code_score": 74.8,
+    "points": 210,
+    "points_by_difficulty": {},
+    "roadmaps": [
+      {
+        "skill": "Modern Frontend Development",
+        "file": "roadmap_modern-frontend-development.json",
+        "progress": 0.7,
+        "tasks_done": 13,
+        "tasks_total": 19,
+        "projected_end": "2027-01-15",
+        "planned_end": "2027-01-10",
+        "slip_days": -4
+      }
+    ]
+  }
+}

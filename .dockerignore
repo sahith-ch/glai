@@ -1,0 +1,17 @@
+# Only code goes into the image - never a learner's local data or secrets.
+.env
+.env.*
+!.env.example
+*.json
+!package.json
+candidates/
+workspaces/
+leveller/
+.cache/
+__pycache__/
+**/__pycache__/
+tests/
+web/
+learner-web/
+*.md
+*.html

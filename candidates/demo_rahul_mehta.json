@@ -1,0 +1,770 @@
+{
+  "demo": true,
+  "name": "Rahul Mehta",
+  "headline": "Backend developer in training",
+  "location": "Pune",
+  "contact": "rahul.demo@example.com",
+  "interests": [
+    "gaming",
+    "music"
+  ],
+  "claimed_skills": [],
+  "created": "2026-08-01T09:00:00",
+  "updated": "2026-09-24T18:00:00",
+  "skill_graph": {
+    "nodes": [
+      {
+        "id": "variables-and-data-types",
+        "name": "Variables and data types",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 1.8,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-16",
+        "acquired_on": "2026-08-16",
+        "parent": "Python fundamentals",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 19,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write variables_and_data_types.py that reads a small sample dataset and prints the result",
+            "description": "Practise variables and data types: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "variables_and_data_types.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 19,
+            "completed_on": "2026-08-15",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 70,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "control-flow",
+        "name": "Control flow",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.6,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 1,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-20",
+        "acquired_on": "2026-08-20",
+        "parent": "Python fundamentals",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 21,
+        "tasks": [
+          {
+            "id": "2.1",
+            "title": "Write control_flow.py that reads a small sample dataset and prints the result",
+            "description": "Practise control flow: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "control_flow.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 21,
+            "completed_on": "2026-08-19",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 74,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "functions-and-scope",
+        "name": "Functions and scope",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 3.4,
+        "tasks_done": 2,
+        "tasks_total": 2,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-26",
+        "acquired_on": "2026-08-26",
+        "parent": "Python fundamentals",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 64,
+        "tasks": [
+          {
+            "id": "3.1",
+            "title": "Write functions_and_scope.py that reads a small sample dataset and prints the result",
+            "description": "Practise functions and scope: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "functions_and_scope.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 31,
+            "completed_on": "2026-08-24",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 71,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "3.2",
+            "title": "Build functions_and_scope_2.py that solves a realistic exercise step by step",
+            "description": "Practise functions and scope: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "functions_and_scope.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 33,
+            "completed_on": "2026-08-25",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 84,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "error-handling",
+        "name": "Error handling",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.6,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 1,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-30",
+        "acquired_on": "2026-08-30",
+        "parent": "Python fundamentals",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 8,
+        "tasks": [
+          {
+            "id": "4.1",
+            "title": "Write error_handling.py that reads a small sample dataset and prints the result",
+            "description": "Practise error handling: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "error_handling.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 8,
+            "completed_on": "2026-08-29",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 89,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "python-fundamentals",
+        "name": "Python fundamentals",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 5,
+        "tasks_total": 5,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-30",
+        "parent": null,
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 112,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write variables_and_data_types.py that reads a small sample dataset and prints the result",
+            "description": "Practise variables and data types: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "variables_and_data_types.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 19,
+            "completed_on": "2026-08-15",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 70,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "2.1",
+            "title": "Write control_flow.py that reads a small sample dataset and prints the result",
+            "description": "Practise control flow: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "control_flow.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 21,
+            "completed_on": "2026-08-19",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 74,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "3.1",
+            "title": "Write functions_and_scope.py that reads a small sample dataset and prints the result",
+            "description": "Practise functions and scope: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "functions_and_scope.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 31,
+            "completed_on": "2026-08-24",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 71,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "3.2",
+            "title": "Build functions_and_scope_2.py that solves a realistic exercise step by step",
+            "description": "Practise functions and scope: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "functions_and_scope.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 33,
+            "completed_on": "2026-08-25",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 84,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "4.1",
+            "title": "Write error_handling.py that reads a small sample dataset and prints the result",
+            "description": "Practise error handling: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "error_handling.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 8,
+            "completed_on": "2026-08-29",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 89,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "sql-select-queries",
+        "name": "SQL SELECT queries",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 6.6,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-05",
+        "acquired_on": "2026-09-05",
+        "parent": "SQL databases",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 51,
+        "tasks": [
+          {
+            "id": "5.1",
+            "title": "Write sql_select_queries.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 16,
+            "completed_on": "2026-09-02",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 85,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "5.2",
+            "title": "Build sql_select_queries_2.py that solves a realistic exercise step by step",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 19,
+            "completed_on": "2026-09-03",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 84,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "5.3",
+            "title": "Create sql_select_queries_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 16,
+            "completed_on": "2026-09-04",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 74,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "sql-joins",
+        "name": "SQL joins",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 4.6,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-11",
+        "acquired_on": "2026-09-11",
+        "parent": "SQL databases",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 119,
+        "tasks": [
+          {
+            "id": "6.1",
+            "title": "Write sql_joins.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 42,
+            "completed_on": "2026-09-08",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 74,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "6.2",
+            "title": "Build sql_joins_2.py that solves a realistic exercise step by step",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 41,
+            "completed_on": "2026-09-09",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 90,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "6.3",
+            "title": "Create sql_joins_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 36,
+            "completed_on": "2026-09-10",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 86,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "database-schema-design",
+        "name": "Database schema design",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 7.5,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-16",
+        "acquired_on": "2026-09-16",
+        "parent": "SQL databases",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 59,
+        "tasks": [
+          {
+            "id": "7.1",
+            "title": "Write database_schema_design.py that reads a small sample dataset and prints the result",
+            "description": "Practise database schema design: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "database_schema_design.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 21,
+            "completed_on": "2026-09-13",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 89,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "7.2",
+            "title": "Build database_schema_design_2.py that solves a realistic exercise step by step",
+            "description": "Practise database schema design: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "database_schema_design.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 17,
+            "completed_on": "2026-09-14",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 93,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "7.3",
+            "title": "Create database_schema_design_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise database schema design: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "database_schema_design.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 21,
+            "completed_on": "2026-09-15",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 81,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "sql-databases",
+        "name": "SQL databases",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 9,
+        "tasks_total": 9,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-09-16",
+        "parent": null,
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 229,
+        "tasks": [
+          {
+            "id": "5.1",
+            "title": "Write sql_select_queries.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 16,
+            "completed_on": "2026-09-02",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 85,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "5.2",
+            "title": "Build sql_select_queries_2.py that solves a realistic exercise step by step",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 19,
+            "completed_on": "2026-09-03",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 84,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "5.3",
+            "title": "Create sql_select_queries_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 16,
+            "completed_on": "2026-09-04",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 74,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "6.1",
+            "title": "Write sql_joins.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 42,
+            "completed_on": "2026-09-08",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 74,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "6.2",
+            "title": "Build sql_joins_2.py that solves a realistic exercise step by step",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 41,
+            "completed_on": "2026-09-09",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 90,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "6.3",
+            "title": "Create sql_joins_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 36,
+            "completed_on": "2026-09-10",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 86,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "7.1",
+            "title": "Write database_schema_design.py that reads a small sample dataset and prints the result",
+            "description": "Practise database schema design: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "database_schema_design.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 21,
+            "completed_on": "2026-09-13",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 89,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "7.2",
+            "title": "Build database_schema_design_2.py that solves a realistic exercise step by step",
+            "description": "Practise database schema design: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "database_schema_design.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 17,
+            "completed_on": "2026-09-14",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 93,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "7.3",
+            "title": "Create database_schema_design_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise database schema design: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "database_schema_design.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 21,
+            "completed_on": "2026-09-15",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 81,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "fastapi-routing",
+        "name": "FastAPI routing",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 5.4,
+        "tasks_done": 2,
+        "tasks_total": 2,
+        "failures": 1,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-21",
+        "acquired_on": "2026-09-21",
+        "parent": "REST APIs with FastAPI",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 79,
+        "tasks": [
+          {
+            "id": "8.1",
+            "title": "Write fastapi_routing.py that reads a small sample dataset and prints the result",
+            "description": "Practise fastapi routing: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "fastapi_routing.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 45,
+            "completed_on": "2026-09-19",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 84,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "8.2",
+            "title": "Build fastapi_routing_2.py that solves a realistic exercise step by step",
+            "description": "Practise fastapi routing: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "fastapi_routing.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 34,
+            "completed_on": "2026-09-20",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 72,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      },
+      {
+        "id": "request-validation-with-pydantic",
+        "name": "Request validation with Pydantic",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 5.5,
+        "tasks_done": 2,
+        "tasks_total": 2,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-24",
+        "acquired_on": "2026-09-24",
+        "parent": "REST APIs with FastAPI",
+        "roadmaps": [
+          "Backend Development with Python"
+        ],
+        "points": 41,
+        "tasks": [
+          {
+            "id": "9.1",
+            "title": "Write request_validation_with_pyda.py that reads a small sample dataset and prints the result",
+            "description": "Practise request validation with pydantic: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "request_validation_with_pyda.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 21,
+            "completed_on": "2026-09-22",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 85,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          },
+          {
+            "id": "9.2",
+            "title": "Build request_validation_with_pyda_2.py that solves a realistic exercise step by step",
+            "description": "Practise request validation with pydantic: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "request_validation_with_pyda.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 20,
+            "completed_on": "2026-09-23",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 96,
+            "source": "https://github.com/rahulmehta/learning-tasks",
+            "roadmap": "Backend Development with Python"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "src": "variables-and-data-types",
+        "dst": "python-fundamentals",
+        "kind": "part_of"
+      },
+      {
+        "src": "control-flow",
+        "dst": "python-fundamentals",
+        "kind": "part_of"
+      },
+      {
+        "src": "functions-and-scope",
+        "dst": "python-fundamentals",
+        "kind": "part_of"
+      },
+      {
+        "src": "error-handling",
+        "dst": "python-fundamentals",
+        "kind": "part_of"
+      },
+      {
+        "src": "sql-select-queries",
+        "dst": "sql-databases",
+        "kind": "part_of"
+      },
+      {
+        "src": "sql-joins",
+        "dst": "sql-databases",
+        "kind": "part_of"
+      },
+      {
+        "src": "database-schema-design",
+        "dst": "sql-databases",
+        "kind": "part_of"
+      },
+      {
+        "src": "python-fundamentals",
+        "dst": "sql-databases",
+        "kind": "prerequisite"
+      }
+    ]
+  },
+  "stats": {
+    "hours_logged": 44.0,
+    "tasks_done": 20,
+    "failures": 3,
+    "skips": 1,
+    "helper_tasks": 3,
+    "first_try_rate": 0.64,
+    "active_days": 26,
+    "current_streak": 0,
+    "longest_streak": 12,
+    "last_active": "2026-09-24",
+    "skills_completed": 11,
+    "skills_in_progress": 2,
+    "submissions": 18,
+    "submissions_passed": 12,
+    "avg_code_score": 77.6,
+    "points": 461,
+    "points_by_difficulty": {},
+    "roadmaps": [
+      {
+        "skill": "Backend Development with Python",
+        "file": "roadmap_backend-development-with-python.json",
+        "progress": 0.83,
+        "tasks_done": 20,
+        "tasks_total": 26,
+        "projected_end": "2027-01-15",
+        "planned_end": "2027-01-10",
+        "slip_days": -2
+      }
+    ]
+  }
+}

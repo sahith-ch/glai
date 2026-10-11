@@ -1,0 +1,792 @@
+{
+  "demo": true,
+  "name": "Sara Khan",
+  "headline": "Machine learning enthusiast",
+  "location": "Hyderabad",
+  "contact": "sara.demo@example.com",
+  "interests": [
+    "movies",
+    "health"
+  ],
+  "claimed_skills": [
+    "Excel pivot tables"
+  ],
+  "created": "2026-08-01T09:00:00",
+  "updated": "2026-09-06T18:00:00",
+  "skill_graph": {
+    "nodes": [
+      {
+        "id": "excel-pivot-tables",
+        "name": "Excel pivot tables",
+        "kind": "claimed",
+        "status": "verified",
+        "progress": 0.0,
+        "hours": 0.0,
+        "tasks_done": 0,
+        "tasks_total": 0,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-05",
+        "parent": null,
+        "roadmaps": [],
+        "points": 0,
+        "tasks": [
+          {
+            "id": "1.0",
+            "title": "Skills check: prove Excel pivot tables",
+            "description": "A short task confirming the learner can already do Excel pivot tables at the level the roadmap builds on.",
+            "deliverable": "check.py passes the provided tests",
+            "difficulty": "easy",
+            "points": 5,
+            "completed_on": "2026-08-05",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 88,
+            "source": null,
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "numpy-array-operations",
+        "name": "NumPy array operations",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.4,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-08",
+        "acquired_on": "2026-08-08",
+        "parent": "NumPy and pandas basics",
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 11,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write numpy_array_operations.py that reads a small sample dataset and prints the result",
+            "description": "Practise numpy array operations: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "numpy_array_operations.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 11,
+            "completed_on": "2026-08-07",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 89,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "reading-csv-files-with-pandas",
+        "name": "Reading CSV files with pandas",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 4.6,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-12",
+        "acquired_on": "2026-08-12",
+        "parent": "NumPy and pandas basics",
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 52,
+        "tasks": [
+          {
+            "id": "2.1",
+            "title": "Write reading_csv_files_with_panda.py that reads a small sample dataset and prints the result",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 18,
+            "completed_on": "2026-08-09",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 86,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "2.2",
+            "title": "Build reading_csv_files_with_panda_2.py that solves a realistic exercise step by step",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 15,
+            "completed_on": "2026-08-10",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 96,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "2.3",
+            "title": "Create reading_csv_files_with_panda_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 19,
+            "completed_on": "2026-08-11",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 79,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "pandas-groupby-and-aggregation",
+        "name": "Pandas groupby and aggregation",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 3.0,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-17",
+        "acquired_on": "2026-08-17",
+        "parent": "NumPy and pandas basics",
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 39,
+        "tasks": [
+          {
+            "id": "3.1",
+            "title": "Write pandas_groupby_and_aggregati.py that reads a small sample dataset and prints the result",
+            "description": "Practise pandas groupby and aggregation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "pandas_groupby_and_aggregati.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 39,
+            "completed_on": "2026-08-16",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 91,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "numpy-and-pandas-basics",
+        "name": "NumPy and pandas basics",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 5,
+        "tasks_total": 5,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-17",
+        "parent": null,
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 102,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write numpy_array_operations.py that reads a small sample dataset and prints the result",
+            "description": "Practise numpy array operations: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "numpy_array_operations.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 11,
+            "completed_on": "2026-08-07",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 89,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "2.1",
+            "title": "Write reading_csv_files_with_panda.py that reads a small sample dataset and prints the result",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 18,
+            "completed_on": "2026-08-09",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 86,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "2.2",
+            "title": "Build reading_csv_files_with_panda_2.py that solves a realistic exercise step by step",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 15,
+            "completed_on": "2026-08-10",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 96,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "2.3",
+            "title": "Create reading_csv_files_with_panda_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 19,
+            "completed_on": "2026-08-11",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 79,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "3.1",
+            "title": "Write pandas_groupby_and_aggregati.py that reads a small sample dataset and prints the result",
+            "description": "Practise pandas groupby and aggregation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "pandas_groupby_and_aggregati.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 39,
+            "completed_on": "2026-08-16",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 91,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "descriptive-statistics",
+        "name": "Descriptive statistics",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 9.7,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-22",
+        "acquired_on": "2026-08-22",
+        "parent": "Statistics for ML",
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 55,
+        "tasks": [
+          {
+            "id": "4.1",
+            "title": "Write descriptive_statistics.py that reads a small sample dataset and prints the result",
+            "description": "Practise descriptive statistics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "descriptive_statistics.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 21,
+            "completed_on": "2026-08-19",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 89,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "4.2",
+            "title": "Build descriptive_statistics_2.py that solves a realistic exercise step by step",
+            "description": "Practise descriptive statistics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "descriptive_statistics.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 19,
+            "completed_on": "2026-08-20",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 75,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "4.3",
+            "title": "Create descriptive_statistics_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise descriptive statistics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "descriptive_statistics.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 15,
+            "completed_on": "2026-08-21",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 87,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "hypothesis-testing-basics",
+        "name": "Hypothesis testing basics",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 1.6,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-24",
+        "acquired_on": "2026-08-24",
+        "parent": "Statistics for ML",
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 9,
+        "tasks": [
+          {
+            "id": "5.1",
+            "title": "Write hypothesis_testing_basics.py that reads a small sample dataset and prints the result",
+            "description": "Practise hypothesis testing basics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "hypothesis_testing_basics.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 9,
+            "completed_on": "2026-08-23",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 86,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "statistics-for-ml",
+        "name": "Statistics for ML",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 4,
+        "tasks_total": 4,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-24",
+        "parent": null,
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 64,
+        "tasks": [
+          {
+            "id": "4.1",
+            "title": "Write descriptive_statistics.py that reads a small sample dataset and prints the result",
+            "description": "Practise descriptive statistics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "descriptive_statistics.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 21,
+            "completed_on": "2026-08-19",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 89,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "4.2",
+            "title": "Build descriptive_statistics_2.py that solves a realistic exercise step by step",
+            "description": "Practise descriptive statistics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "descriptive_statistics.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 19,
+            "completed_on": "2026-08-20",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 75,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "4.3",
+            "title": "Create descriptive_statistics_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise descriptive statistics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "descriptive_statistics.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 15,
+            "completed_on": "2026-08-21",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 87,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "5.1",
+            "title": "Write hypothesis_testing_basics.py that reads a small sample dataset and prints the result",
+            "description": "Practise hypothesis testing basics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "hypothesis_testing_basics.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 9,
+            "completed_on": "2026-08-23",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 86,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "linear-regression-with-scikit-learn",
+        "name": "Linear regression with scikit-learn",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 5.0,
+        "tasks_done": 2,
+        "tasks_total": 2,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-28",
+        "acquired_on": "2026-08-28",
+        "parent": "Supervised learning with scikit-learn",
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 82,
+        "tasks": [
+          {
+            "id": "6.1",
+            "title": "Write linear_regression_with_sciki.py that reads a small sample dataset and prints the result",
+            "description": "Practise linear regression with scikit-learn: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "linear_regression_with_sciki.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 37,
+            "completed_on": "2026-08-26",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 92,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "6.2",
+            "title": "Build linear_regression_with_sciki_2.py that solves a realistic exercise step by step",
+            "description": "Practise linear regression with scikit-learn: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "linear_regression_with_sciki.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 45,
+            "completed_on": "2026-08-27",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 86,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "train-test-split-and-cross-validation",
+        "name": "Train/test split and cross-validation",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.3,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-01",
+        "acquired_on": "2026-09-01",
+        "parent": "Supervised learning with scikit-learn",
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 41,
+        "tasks": [
+          {
+            "id": "7.1",
+            "title": "Write train_test_split_and_cross_v.py that reads a small sample dataset and prints the result",
+            "description": "Practise train/test split and cross-validation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "train_test_split_and_cross_v.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 41,
+            "completed_on": "2026-08-31",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 72,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "classification-metrics",
+        "name": "Classification metrics",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 5.2,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-06",
+        "acquired_on": "2026-09-06",
+        "parent": "Supervised learning with scikit-learn",
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 59,
+        "tasks": [
+          {
+            "id": "8.1",
+            "title": "Write classification_metrics.py that reads a small sample dataset and prints the result",
+            "description": "Practise classification metrics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "classification_metrics.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 16,
+            "completed_on": "2026-09-03",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 92,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "8.2",
+            "title": "Build classification_metrics_2.py that solves a realistic exercise step by step",
+            "description": "Practise classification metrics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "classification_metrics.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 21,
+            "completed_on": "2026-09-04",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 84,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "8.3",
+            "title": "Create classification_metrics_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise classification metrics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "classification_metrics.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 22,
+            "completed_on": "2026-09-05",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 82,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      },
+      {
+        "id": "supervised-learning-with-scikit-learn",
+        "name": "Supervised learning with scikit-learn",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 6,
+        "tasks_total": 6,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-09-06",
+        "parent": null,
+        "roadmaps": [
+          "Machine Learning Foundations"
+        ],
+        "points": 182,
+        "tasks": [
+          {
+            "id": "6.1",
+            "title": "Write linear_regression_with_sciki.py that reads a small sample dataset and prints the result",
+            "description": "Practise linear regression with scikit-learn: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "linear_regression_with_sciki.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 37,
+            "completed_on": "2026-08-26",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 92,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "6.2",
+            "title": "Build linear_regression_with_sciki_2.py that solves a realistic exercise step by step",
+            "description": "Practise linear regression with scikit-learn: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "linear_regression_with_sciki.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 45,
+            "completed_on": "2026-08-27",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 86,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "7.1",
+            "title": "Write train_test_split_and_cross_v.py that reads a small sample dataset and prints the result",
+            "description": "Practise train/test split and cross-validation: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "train_test_split_and_cross_v.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 41,
+            "completed_on": "2026-08-31",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 72,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "8.1",
+            "title": "Write classification_metrics.py that reads a small sample dataset and prints the result",
+            "description": "Practise classification metrics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "classification_metrics.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 16,
+            "completed_on": "2026-09-03",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 92,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "8.2",
+            "title": "Build classification_metrics_2.py that solves a realistic exercise step by step",
+            "description": "Practise classification metrics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "classification_metrics.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 21,
+            "completed_on": "2026-09-04",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 84,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          },
+          {
+            "id": "8.3",
+            "title": "Create classification_metrics_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise classification metrics: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "classification_metrics.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 22,
+            "completed_on": "2026-09-05",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 82,
+            "source": "https://github.com/sarakhan/learning-tasks",
+            "roadmap": "Machine Learning Foundations"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "src": "numpy-array-operations",
+        "dst": "numpy-and-pandas-basics",
+        "kind": "part_of"
+      },
+      {
+        "src": "reading-csv-files-with-pandas",
+        "dst": "numpy-and-pandas-basics",
+        "kind": "part_of"
+      },
+      {
+        "src": "pandas-groupby-and-aggregation",
+        "dst": "numpy-and-pandas-basics",
+        "kind": "part_of"
+      },
+      {
+        "src": "descriptive-statistics",
+        "dst": "statistics-for-ml",
+        "kind": "part_of"
+      },
+      {
+        "src": "hypothesis-testing-basics",
+        "dst": "statistics-for-ml",
+        "kind": "part_of"
+      },
+      {
+        "src": "numpy-and-pandas-basics",
+        "dst": "statistics-for-ml",
+        "kind": "prerequisite"
+      },
+      {
+        "src": "linear-regression-with-scikit-learn",
+        "dst": "supervised-learning-with-scikit-learn",
+        "kind": "part_of"
+      },
+      {
+        "src": "train-test-split-and-cross-validation",
+        "dst": "supervised-learning-with-scikit-learn",
+        "kind": "part_of"
+      },
+      {
+        "src": "classification-metrics",
+        "dst": "supervised-learning-with-scikit-learn",
+        "kind": "part_of"
+      },
+      {
+        "src": "statistics-for-ml",
+        "dst": "supervised-learning-with-scikit-learn",
+        "kind": "prerequisite"
+      },
+      {
+        "src": "excel-pivot-tables",
+        "dst": "numpy-and-pandas-basics",
+        "kind": "prerequisite"
+      }
+    ]
+  },
+  "stats": {
+    "hours_logged": 37.2,
+    "tasks_done": 17,
+    "failures": 1,
+    "skips": 3,
+    "helper_tasks": 4,
+    "first_try_rate": 0.85,
+    "active_days": 24,
+    "current_streak": 2,
+    "longest_streak": 12,
+    "last_active": "2026-09-06",
+    "skills_completed": 11,
+    "skills_in_progress": 1,
+    "submissions": 15,
+    "submissions_passed": 13,
+    "avg_code_score": 76.6,
+    "points": 348,
+    "points_by_difficulty": {},
+    "roadmaps": [
+      {
+        "skill": "Machine Learning Foundations",
+        "file": "roadmap_machine-learning-foundations.json",
+        "progress": 0.49,
+        "tasks_done": 17,
+        "tasks_total": 26,
+        "projected_end": "2027-01-15",
+        "planned_end": "2027-01-10",
+        "slip_days": -4
+      }
+    ]
+  }
+}

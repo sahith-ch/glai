@@ -1,0 +1,492 @@
+{
+  "demo": true,
+  "name": "Arjun Das",
+  "headline": "Data visualisation and reporting",
+  "location": "Kolkata",
+  "contact": "arjun.demo@example.com",
+  "interests": [
+    "cricket",
+    "photography"
+  ],
+  "claimed_skills": [
+    "SQL SELECT queries"
+  ],
+  "created": "2026-08-01T09:00:00",
+  "updated": "2026-09-02T18:00:00",
+  "skill_graph": {
+    "nodes": [
+      {
+        "id": "sql-select-queries",
+        "name": "SQL SELECT queries",
+        "kind": "claimed",
+        "status": "verified",
+        "progress": 0.0,
+        "hours": 0.0,
+        "tasks_done": 0,
+        "tasks_total": 0,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-17",
+        "parent": null,
+        "roadmaps": [],
+        "points": 0,
+        "tasks": [
+          {
+            "id": "1.0",
+            "title": "Skills check: prove SQL SELECT queries",
+            "description": "A short task confirming the learner can already do SQL SELECT queries at the level the roadmap builds on.",
+            "deliverable": "check.py passes the provided tests",
+            "difficulty": "easy",
+            "points": 5,
+            "completed_on": "2026-08-17",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 88,
+            "source": null,
+            "roadmap": "Data Visualisation with Python"
+          }
+        ]
+      },
+      {
+        "id": "reading-csv-files-with-pandas",
+        "name": "Reading CSV files with pandas",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 7.5,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-21",
+        "acquired_on": "2026-08-21",
+        "parent": "Pandas data wrangling",
+        "roadmaps": [
+          "Data Visualisation with Python"
+        ],
+        "points": 113,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write reading_csv_files_with_panda.py that reads a small sample dataset and prints the result",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 31,
+            "completed_on": "2026-08-18",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 96,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "1.2",
+            "title": "Build reading_csv_files_with_panda_2.py that solves a realistic exercise step by step",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 45,
+            "completed_on": "2026-08-19",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 74,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "1.3",
+            "title": "Create reading_csv_files_with_panda_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 37,
+            "completed_on": "2026-08-20",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 96,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          }
+        ]
+      },
+      {
+        "id": "cleaning-missing-values-in-pandas",
+        "name": "Cleaning missing values in pandas",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 4.8,
+        "tasks_done": 2,
+        "tasks_total": 2,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-24",
+        "acquired_on": "2026-08-24",
+        "parent": "Pandas data wrangling",
+        "roadmaps": [
+          "Data Visualisation with Python"
+        ],
+        "points": 41,
+        "tasks": [
+          {
+            "id": "2.1",
+            "title": "Write cleaning_missing_values_in_p.py that reads a small sample dataset and prints the result",
+            "description": "Practise cleaning missing values in pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "cleaning_missing_values_in_p.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 20,
+            "completed_on": "2026-08-22",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 93,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "2.2",
+            "title": "Build cleaning_missing_values_in_p_2.py that solves a realistic exercise step by step",
+            "description": "Practise cleaning missing values in pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "cleaning_missing_values_in_p.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 21,
+            "completed_on": "2026-08-23",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 93,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          }
+        ]
+      },
+      {
+        "id": "pandas-data-wrangling",
+        "name": "Pandas data wrangling",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 5,
+        "tasks_total": 5,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-24",
+        "parent": null,
+        "roadmaps": [
+          "Data Visualisation with Python"
+        ],
+        "points": 154,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write reading_csv_files_with_panda.py that reads a small sample dataset and prints the result",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 31,
+            "completed_on": "2026-08-18",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 96,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "1.2",
+            "title": "Build reading_csv_files_with_panda_2.py that solves a realistic exercise step by step",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 45,
+            "completed_on": "2026-08-19",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 74,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "1.3",
+            "title": "Create reading_csv_files_with_panda_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise reading csv files with pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "reading_csv_files_with_panda.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 37,
+            "completed_on": "2026-08-20",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 96,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "2.1",
+            "title": "Write cleaning_missing_values_in_p.py that reads a small sample dataset and prints the result",
+            "description": "Practise cleaning missing values in pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "cleaning_missing_values_in_p.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 20,
+            "completed_on": "2026-08-22",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 93,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "2.2",
+            "title": "Build cleaning_missing_values_in_p_2.py that solves a realistic exercise step by step",
+            "description": "Practise cleaning missing values in pandas: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "cleaning_missing_values_in_p.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 21,
+            "completed_on": "2026-08-23",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 93,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          }
+        ]
+      },
+      {
+        "id": "matplotlib-line-and-bar-charts",
+        "name": "Matplotlib line and bar charts",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 1.9,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 1,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-29",
+        "acquired_on": "2026-08-29",
+        "parent": "Data visualisation",
+        "roadmaps": [
+          "Data Visualisation with Python"
+        ],
+        "points": 22,
+        "tasks": [
+          {
+            "id": "3.1",
+            "title": "Write matplotlib_line_and_bar_char.py that reads a small sample dataset and prints the result",
+            "description": "Practise matplotlib line and bar charts: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "matplotlib_line_and_bar_char.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 22,
+            "completed_on": "2026-08-28",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 85,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          }
+        ]
+      },
+      {
+        "id": "seaborn-distribution-plots",
+        "name": "Seaborn distribution plots",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.8,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-31",
+        "acquired_on": "2026-08-31",
+        "parent": "Data visualisation",
+        "roadmaps": [
+          "Data Visualisation with Python"
+        ],
+        "points": 16,
+        "tasks": [
+          {
+            "id": "4.1",
+            "title": "Write seaborn_distribution_plots.py that reads a small sample dataset and prints the result",
+            "description": "Practise seaborn distribution plots: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "seaborn_distribution_plots.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 16,
+            "completed_on": "2026-08-30",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 89,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          }
+        ]
+      },
+      {
+        "id": "dashboard-layout-with-plotly",
+        "name": "Dashboard layout with Plotly",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 2.5,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-09-02",
+        "acquired_on": "2026-09-02",
+        "parent": "Data visualisation",
+        "roadmaps": [
+          "Data Visualisation with Python"
+        ],
+        "points": 17,
+        "tasks": [
+          {
+            "id": "5.1",
+            "title": "Write dashboard_layout_with_plotly.py that reads a small sample dataset and prints the result",
+            "description": "Practise dashboard layout with plotly: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "dashboard_layout_with_plotly.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 17,
+            "completed_on": "2026-09-01",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 92,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          }
+        ]
+      },
+      {
+        "id": "data-visualisation",
+        "name": "Data visualisation",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-09-02",
+        "parent": null,
+        "roadmaps": [
+          "Data Visualisation with Python"
+        ],
+        "points": 55,
+        "tasks": [
+          {
+            "id": "3.1",
+            "title": "Write matplotlib_line_and_bar_char.py that reads a small sample dataset and prints the result",
+            "description": "Practise matplotlib line and bar charts: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "matplotlib_line_and_bar_char.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 22,
+            "completed_on": "2026-08-28",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 85,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "4.1",
+            "title": "Write seaborn_distribution_plots.py that reads a small sample dataset and prints the result",
+            "description": "Practise seaborn distribution plots: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "seaborn_distribution_plots.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 16,
+            "completed_on": "2026-08-30",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 89,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          },
+          {
+            "id": "5.1",
+            "title": "Write dashboard_layout_with_plotly.py that reads a small sample dataset and prints the result",
+            "description": "Practise dashboard layout with plotly: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "dashboard_layout_with_plotly.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 17,
+            "completed_on": "2026-09-01",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 92,
+            "source": "https://github.com/arjundas/learning-tasks",
+            "roadmap": "Data Visualisation with Python"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "src": "reading-csv-files-with-pandas",
+        "dst": "pandas-data-wrangling",
+        "kind": "part_of"
+      },
+      {
+        "src": "cleaning-missing-values-in-pandas",
+        "dst": "pandas-data-wrangling",
+        "kind": "part_of"
+      },
+      {
+        "src": "matplotlib-line-and-bar-charts",
+        "dst": "data-visualisation",
+        "kind": "part_of"
+      },
+      {
+        "src": "seaborn-distribution-plots",
+        "dst": "data-visualisation",
+        "kind": "part_of"
+      },
+      {
+        "src": "dashboard-layout-with-plotly",
+        "dst": "data-visualisation",
+        "kind": "part_of"
+      },
+      {
+        "src": "pandas-data-wrangling",
+        "dst": "data-visualisation",
+        "kind": "prerequisite"
+      },
+      {
+        "src": "sql-select-queries",
+        "dst": "pandas-data-wrangling",
+        "kind": "prerequisite"
+      }
+    ]
+  },
+  "stats": {
+    "hours_logged": 21.5,
+    "tasks_done": 10,
+    "failures": 2,
+    "skips": 3,
+    "helper_tasks": 3,
+    "first_try_rate": 0.69,
+    "active_days": 18,
+    "current_streak": 6,
+    "longest_streak": 7,
+    "last_active": "2026-09-02",
+    "skills_completed": 7,
+    "skills_in_progress": 3,
+    "submissions": 8,
+    "submissions_passed": 6,
+    "avg_code_score": 72.8,
+    "points": 209,
+    "points_by_difficulty": {},
+    "roadmaps": [
+      {
+        "skill": "Data Visualisation with Python",
+        "file": "roadmap_data-visualisation-with-python.json",
+        "progress": 0.84,
+        "tasks_done": 10,
+        "tasks_total": 21,
+        "projected_end": "2027-01-15",
+        "planned_end": "2027-01-10",
+        "slip_days": -4
+      }
+    ]
+  }
+}

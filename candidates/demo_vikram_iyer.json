@@ -1,0 +1,431 @@
+{
+  "demo": true,
+  "name": "Vikram Iyer",
+  "headline": "Career switcher into analytics",
+  "location": "Chennai",
+  "contact": "vikram.demo@example.com",
+  "interests": [
+    "football"
+  ],
+  "claimed_skills": [
+    "Excel pivot tables",
+    "basic statistics"
+  ],
+  "created": "2026-08-01T09:00:00",
+  "updated": "2026-08-29T18:00:00",
+  "skill_graph": {
+    "nodes": [
+      {
+        "id": "excel-pivot-tables",
+        "name": "Excel pivot tables",
+        "kind": "claimed",
+        "status": "verified",
+        "progress": 0.0,
+        "hours": 0.0,
+        "tasks_done": 0,
+        "tasks_total": 0,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-11",
+        "parent": null,
+        "roadmaps": [],
+        "points": 0,
+        "tasks": [
+          {
+            "id": "1.0",
+            "title": "Skills check: prove Excel pivot tables",
+            "description": "A short task confirming the learner can already do Excel pivot tables at the level the roadmap builds on.",
+            "deliverable": "check.py passes the provided tests",
+            "difficulty": "easy",
+            "points": 5,
+            "completed_on": "2026-08-11",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 88,
+            "source": null,
+            "roadmap": "SQL for Data Analysis"
+          }
+        ]
+      },
+      {
+        "id": "basic-statistics",
+        "name": "basic statistics",
+        "kind": "claimed",
+        "status": "verified",
+        "progress": 0.0,
+        "hours": 0.0,
+        "tasks_done": 0,
+        "tasks_total": 0,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-11",
+        "parent": null,
+        "roadmaps": [],
+        "points": 0,
+        "tasks": [
+          {
+            "id": "1.0",
+            "title": "Skills check: prove basic statistics",
+            "description": "A short task confirming the learner can already do basic statistics at the level the roadmap builds on.",
+            "deliverable": "check.py passes the provided tests",
+            "difficulty": "easy",
+            "points": 5,
+            "completed_on": "2026-08-11",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 88,
+            "source": null,
+            "roadmap": "SQL for Data Analysis"
+          }
+        ]
+      },
+      {
+        "id": "sql-select-queries",
+        "name": "SQL SELECT queries",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 4.5,
+        "tasks_done": 2,
+        "tasks_total": 2,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-16",
+        "acquired_on": "2026-08-16",
+        "parent": "SQL databases",
+        "roadmaps": [
+          "SQL for Data Analysis"
+        ],
+        "points": 64,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write sql_select_queries.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 32,
+            "completed_on": "2026-08-14",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 86,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          },
+          {
+            "id": "1.2",
+            "title": "Build sql_select_queries_2.py that solves a realistic exercise step by step",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 32,
+            "completed_on": "2026-08-15",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 98,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          }
+        ]
+      },
+      {
+        "id": "filtering-and-sorting-in-sql",
+        "name": "Filtering and sorting in SQL",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 1.8,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 1,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-21",
+        "acquired_on": "2026-08-21",
+        "parent": "SQL databases",
+        "roadmaps": [
+          "SQL for Data Analysis"
+        ],
+        "points": 11,
+        "tasks": [
+          {
+            "id": "2.1",
+            "title": "Write filtering_and_sorting_in_sql.py that reads a small sample dataset and prints the result",
+            "description": "Practise filtering and sorting in sql: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "filtering_and_sorting_in_sql.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 11,
+            "completed_on": "2026-08-20",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 97,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          }
+        ]
+      },
+      {
+        "id": "sql-joins",
+        "name": "SQL joins",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 7.9,
+        "tasks_done": 3,
+        "tasks_total": 3,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-27",
+        "acquired_on": "2026-08-27",
+        "parent": "SQL databases",
+        "roadmaps": [
+          "SQL for Data Analysis"
+        ],
+        "points": 48,
+        "tasks": [
+          {
+            "id": "3.1",
+            "title": "Write sql_joins.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 15,
+            "completed_on": "2026-08-24",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 72,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          },
+          {
+            "id": "3.2",
+            "title": "Build sql_joins_2.py that solves a realistic exercise step by step",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 17,
+            "completed_on": "2026-08-25",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 83,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          },
+          {
+            "id": "3.3",
+            "title": "Create sql_joins_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 16,
+            "completed_on": "2026-08-26",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 90,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          }
+        ]
+      },
+      {
+        "id": "sql-databases",
+        "name": "SQL databases",
+        "kind": "skill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 0.0,
+        "tasks_done": 6,
+        "tasks_total": 6,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": null,
+        "acquired_on": "2026-08-27",
+        "parent": null,
+        "roadmaps": [
+          "SQL for Data Analysis"
+        ],
+        "points": 123,
+        "tasks": [
+          {
+            "id": "1.1",
+            "title": "Write sql_select_queries.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 32,
+            "completed_on": "2026-08-14",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 86,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          },
+          {
+            "id": "1.2",
+            "title": "Build sql_select_queries_2.py that solves a realistic exercise step by step",
+            "description": "Practise sql select queries: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_select_queries.py runs on the sample input and prints the expected values",
+            "difficulty": "hard",
+            "points": 32,
+            "completed_on": "2026-08-15",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 98,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          },
+          {
+            "id": "2.1",
+            "title": "Write filtering_and_sorting_in_sql.py that reads a small sample dataset and prints the result",
+            "description": "Practise filtering and sorting in sql: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "filtering_and_sorting_in_sql.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 11,
+            "completed_on": "2026-08-20",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 97,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          },
+          {
+            "id": "3.1",
+            "title": "Write sql_joins.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 15,
+            "completed_on": "2026-08-24",
+            "kind": "core",
+            "tests": "4/4",
+            "review_score": 72,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          },
+          {
+            "id": "3.2",
+            "title": "Build sql_joins_2.py that solves a realistic exercise step by step",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "easy",
+            "points": 17,
+            "completed_on": "2026-08-25",
+            "kind": "core",
+            "tests": "3/3",
+            "review_score": 83,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          },
+          {
+            "id": "3.3",
+            "title": "Create sql_joins_3.py that combines this with earlier skills in a mini project",
+            "description": "Practise sql joins: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_joins.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 16,
+            "completed_on": "2026-08-26",
+            "kind": "core",
+            "tests": "5/5",
+            "review_score": 90,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          }
+        ]
+      },
+      {
+        "id": "sql-window-functions",
+        "name": "SQL window functions",
+        "kind": "subskill",
+        "status": "completed",
+        "progress": 1.0,
+        "hours": 1.7,
+        "tasks_done": 1,
+        "tasks_total": 1,
+        "failures": 0,
+        "helpers_used": 0,
+        "last_practiced": "2026-08-29",
+        "acquired_on": "2026-08-29",
+        "parent": "Analytical SQL",
+        "roadmaps": [
+          "SQL for Data Analysis"
+        ],
+        "points": 23,
+        "tasks": [
+          {
+            "id": "4.1",
+            "title": "Write sql_window_functions.py that reads a small sample dataset and prints the result",
+            "description": "Practise sql window functions: implement the steps from the task brief, handle the edge case it names, and print the results in the format the deliverable shows.",
+            "deliverable": "sql_window_functions.py runs on the sample input and prints the expected values",
+            "difficulty": "medium",
+            "points": 23,
+            "completed_on": "2026-08-28",
+            "kind": "core",
+            "tests": "6/6",
+            "review_score": 80,
+            "source": "https://github.com/vikramiyer/learning-tasks",
+            "roadmap": "SQL for Data Analysis"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "src": "sql-select-queries",
+        "dst": "sql-databases",
+        "kind": "part_of"
+      },
+      {
+        "src": "filtering-and-sorting-in-sql",
+        "dst": "sql-databases",
+        "kind": "part_of"
+      },
+      {
+        "src": "sql-joins",
+        "dst": "sql-databases",
+        "kind": "part_of"
+      },
+      {
+        "src": "excel-pivot-tables",
+        "dst": "sql-databases",
+        "kind": "prerequisite"
+      },
+      {
+        "src": "basic-statistics",
+        "dst": "sql-databases",
+        "kind": "prerequisite"
+      }
+    ]
+  },
+  "stats": {
+    "hours_logged": 17.5,
+    "tasks_done": 9,
+    "failures": 1,
+    "skips": 0,
+    "helper_tasks": 4,
+    "first_try_rate": 0.71,
+    "active_days": 13,
+    "current_streak": 0,
+    "longest_streak": 8,
+    "last_active": "2026-08-29",
+    "skills_completed": 5,
+    "skills_in_progress": 2,
+    "submissions": 7,
+    "submissions_passed": 5,
+    "avg_code_score": 69.2,
+    "points": 146,
+    "points_by_difficulty": {},
+    "roadmaps": [
+      {
+        "skill": "SQL for Data Analysis",
+        "file": "roadmap_sql-for-data-analysis.json",
+        "progress": 0.53,
+        "tasks_done": 9,
+        "tasks_total": 17,
+        "projected_end": "2027-01-15",
+        "planned_end": "2027-01-10",
+        "slip_days": 6
+      }
+    ]
+  }
+}

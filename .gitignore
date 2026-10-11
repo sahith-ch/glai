@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+cloud_account.json
+calendar_token.json
+
+# Your own learning data (GLAI keeps it next to the code; it isn't source)
+roadmap_*.json
+roadmap_*.md
+roadmap_*.html
+user_profile.json
+user_profile.*.json
+!user_profile.example.json
+arena.json
+calendar.json
+calendar_log.json
+leveller/
+workspaces/
+
+# Build output, caches, dependencies
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+node_modules/
+dist/
+.vercel
+*.log

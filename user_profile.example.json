@@ -1,0 +1,91 @@
+  {
+    "demo": true,
+    "name": "Vamshi",
+    "interests": ["cricket", "movies", "personal finance"],
+    "claimed_skills": ["Excel pivot tables", "basic statistics", "SQL SELECT queries"],
+    "created": "2026-10-01T09:00:00",
+    "updated": "2026-10-14T18:30:00",
+
+    "skill_graph": {
+      "nodes": [
+        {
+          "id": "excel-pivot-tables",
+          "name": "Excel pivot tables",
+          "kind": "claimed",
+          "status": "verified",
+          "progress": 0,
+          "hours": 0,
+          "tasks_done": 0,
+          "tasks_total": 0,
+          "failures": 0,
+          "helpers_used": 0,
+          "last_practiced": null,
+          "acquired_on": "2026-10-12",
+          "parent": null,
+          "roadmaps": []
+        },
+        {
+          "id": "variables-data-types-and-basic-i-o",
+          "name": "Variables, data types, and basic I/O",
+          "kind": "subskill",
+          "status": "completed",
+          "progress": 1.0,
+          "hours": 3.6,
+          "tasks_done": 2,
+          "tasks_total": 2,
+          "failures": 0,
+          "helpers_used": 0,
+          "last_practiced": "2026-10-13",
+          "acquired_on": "2026-10-13",
+          "parent": "Python fundamentals",
+          "roadmaps": ["Data Analysis with Python"]
+        },
+        {
+          "id": "control-flow-structures",
+          "name": "Control flow structures",
+          "kind": "subskill",
+          "status": "completed",
+          "progress": 1.0,
+          "hours": 5.4,
+          "tasks_done": 1,
+          "tasks_total": 1,
+          "failures": 1,
+          "helpers_used": 2,
+          "last_practiced": "2026-10-16",
+          "acquired_on": "2026-10-16",
+          "parent": "Python fundamentals",
+          "roadmaps": ["Data Analysis with Python"]
+        }
+      ],
+      "edges": [
+        {"src": "variables-data-types-and-basic-i-o", "dst": "control-flow-structures", "kind": "prerequisite"}
+      ]
+    },
+
+    "stats": {
+      "hours_logged": 14.5,
+      "tasks_done": 6,
+      "failures": 1,
+      "skips": 1,
+      "helper_tasks": 2,
+      "first_try_rate": 0.8,
+      "active_days": 5,
+      "current_streak": 3,
+      "longest_streak": 4,
+      "last_active": "2026-10-16",
+      "skills_completed": 2,
+      "skills_in_progress": 3,
+      "roadmaps": [
+        {
+          "skill": "Data Analysis with Python",
+          "file": "roadmap_data_analysis_with_python.json",
+          "progress": 0.12,
+          "tasks_done": 6,
+          "tasks_total": 10,
+          "projected_end": "2027-01-04",
+          "planned_end": "2027-01-01",
+          "slip_days": 3
+        }
+      ]
+    }
+  }
